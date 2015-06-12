@@ -7,7 +7,7 @@ email.oninvalid = function(e) {
 		if (e.target.value.length == 0) {
 			e.target.setCustomValidity("Please enter your email address");
 		} else {
-			e.target.setCustomValidity("Please enter a valid eMail address"); 
+			e.target.setCustomValidity("Please enter a valid email address"); 
 		}
 	}
 };
